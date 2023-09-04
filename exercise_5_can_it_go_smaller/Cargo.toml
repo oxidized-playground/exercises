@@ -1,0 +1,17 @@
+#
+# Welcome to the ALTEN rust playground. This exercise tries to create a minimal size binary for a hello world program in Rust
+# 
+# Steps:
+# Can you build a release version of this binary?
+# Find flags to reduce the release binary in size. Add them to profile.release
+
+[package]
+name = "exercise_5_can_it_go_smaller"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+# Add flags to release profile for a minimal size build
+# Tip: Can you optimize for size? Have Link Time Optimization? Remove debug information?
+[profile.release]
