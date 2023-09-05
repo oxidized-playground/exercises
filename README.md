@@ -2,7 +2,7 @@
 
 ## 0. Introduction
 
-You can run the tests either in vscode by clicking Run / Run Tests inline in the rs files. Alternatively you may use `cargo run` / `cargo test`` to execute the assignments.
+You can run the tests either in vscode by clicking Run / Run Tests inline in the rs files. Alternatively you may use `cargo run` / `cargo test` to execute the assignments.
 
 All exercises require you to create an implementation for them.
 Some require you to add arguments to the function in order to match the tests.
