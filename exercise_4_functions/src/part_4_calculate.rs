@@ -19,7 +19,7 @@ pub enum Operation {
 /// * `b` - Argument 2
 /// * `op` - Operation to execute on given arguments
 pub fn calculate(a: f64, b: f64, op: Operation) -> f64 {
-    0.0
+    todo!("Implement the calculate function for the given operation");
 }
 
 // #[cfg(test)]

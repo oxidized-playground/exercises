@@ -1,4 +1,4 @@
-// Uncomment the function and tests!
+// Uncomment this file!
 
 // // Returns the sum of given integer vector
 // /
@@ -7,6 +7,7 @@
 // / * `v` - A vector containing integers
 // 
 // fn sumvec(...) -> i32 {
+//    todo!("Calculate the sum of the given vector")
 // }
 
 // #[cfg(test)]

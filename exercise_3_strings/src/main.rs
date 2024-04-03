@@ -1,8 +1,10 @@
 /**
- * Welcome to the ALTEN rust playground. In this exercise you will create some strings. 
+ * Welcome to the ALTEN rust playground. In this exercise you will create some strings.
  * Did you know String allocates on the heap and str immutable stored _somewhere_?
+ *
+ * To run this exercise you can run tests via `cargo test` or run using `cargo run` in this directory.
+ *
  */
-
 fn main() {
     // Create a string with some wise words
     println!("Hello, {}", wise_saying());

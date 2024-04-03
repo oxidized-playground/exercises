@@ -1,6 +1,8 @@
 #
 # Welcome to the ALTEN rust playground. This exercise tries to create a minimal size binary for a hello world program in Rust
-# 
+#
+# To run this exercise you can run `cargo build` in this directory.
+#
 # Steps:
 # Can you build a release version of this binary?
 # Find flags to reduce the release binary in size. Add them to profile.release
