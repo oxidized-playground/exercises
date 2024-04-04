@@ -1,3 +1,5 @@
+#![allow(dead_code)]
+
 /// Divide given inputs where the result is a / b.
 /// If b equals to 0.0 the error "Cannot divide by zero" is returned.
 ///
