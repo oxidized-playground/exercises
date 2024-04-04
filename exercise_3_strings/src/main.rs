@@ -1,3 +1,5 @@
+#![allow(unused_variables)]
+
 /**
  * Welcome to the ALTEN rust playground. In this exercise you will create some strings.
  * Did you know String allocates on the heap and str immutable stored _somewhere_?
