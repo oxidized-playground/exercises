@@ -5,15 +5,15 @@
 // / # Arguments
 // /
 // / * `v` - A vector containing integers
-// 
-// fn sumvec(...) -> i32 {
+
+// pub fn sumvec(...) -> i32 {
 //    todo!("Calculate the sum of the given vector")
 // }
 
 // #[cfg(test)]
 // mod tests {
-//     use crate::b_sumvec::sumvec;
-
+//     use crate::part_2_sumvec::sumvec;
+//
 //     #[test]
 //     fn test_sumvec() {
 //         let result = sumvec(&vec![2, 3, 4]);

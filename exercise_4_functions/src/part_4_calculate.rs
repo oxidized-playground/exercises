@@ -8,7 +8,7 @@
 /// * `Sub` - Subtracts the given values
 /// * `Mul` - Multiplies the given values
 /// * `Div` - Divides the given values
-pub enum Operation {
+enum Operation {
 }
 
 /// Generic calculate function requiring two inputs to create a result.
@@ -18,32 +18,32 @@ pub enum Operation {
 /// * `a` - Argument 1
 /// * `b` - Argument 2
 /// * `op` - Operation to execute on given arguments
-pub fn calculate(a: f64, b: f64, op: Operation) -> f64 {
+fn calculate(a: f64, b: f64, op: Operation) -> f64 {
     todo!("Implement the calculate function for the given operation");
 }
 
 // #[cfg(test)]
 // mod tests {
-//     use crate::d_calculate::{calculate, Operation};
-
+//     use crate::part_4_calculate::{calculate, Operation};
+//
 //     #[test]
 //     fn test_calculate_add() {
 //         let result = calculate(2., 4., Operation::Add);
 //         assert_eq!(6., result);
 //     }
-
+//
 //     #[test]
 //     fn test_calculate_sub() {
 //         let result = calculate(2., 4., Operation::Sub);
 //         assert_eq!(-2., result);
 //     }
-
+//
 //     #[test]
 //     fn test_calculate_mul() {
 //         let result = calculate(2., 4., Operation::Mul);
 //         assert_eq!(8., result);
 //     }
-
+//
 //     #[test]
 //     fn test_calculate_div() {
 //         let result = calculate(2., 4., Operation::Div);

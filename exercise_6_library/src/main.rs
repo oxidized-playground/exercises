@@ -1,3 +1,6 @@
+#![allow(unused_variables)]
+#![allow(dead_code)]
+
 /**
  * Welcome to the ALTEN rust playground. In this exercise you will create a struct and manage a library using arrays.
  * The content of this exercise is based on the Library exercise from https://github.com/google/comprehensive-rust/blob/0e4df4b50536a1b300d4618ea13390869aeb4ba7/src/exercises/day-2/book-library.rs

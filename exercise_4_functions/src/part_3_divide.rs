@@ -5,7 +5,7 @@
 ///
 /// * `a` - The dividend of the operation
 /// * `b` - The divisor of the operation
-pub fn divide(a: f64, b: f64) -> Result<f64, &'static str> {
+fn divide(a: f64, b: f64) -> Result<f64, &'static str> {
     todo!("Implement a division that gives an error as mentioned above");
 }
 
@@ -19,13 +19,13 @@ pub fn divide(a: f64, b: f64) -> Result<f64, &'static str> {
 ///
 /// * `a` - The dividend of the operation
 /// * `b` - The divisor of the operation
-pub fn divide_custom_error(a: f64, b: f64) -> Result<f64, String> {
+fn divide_custom_error(a: f64, b: f64) -> Result<f64, String> {
     todo!("Call divide(a,b) and prefix the error with 'Division error! '");
 }
 
 #[cfg(test)]
 mod tests {
-    use crate::c_divide::{divide, divide_custom_error};
+    use crate::part_3_divide::{divide, divide_custom_error};
 
     #[test]
     fn test_divide() {

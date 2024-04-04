@@ -1,3 +1,5 @@
+#![allow(unused_variables)]
+
 /**
  * Welcome to the ALTEN rust playground. In this exercise you will create a new variable and print its content.
  * Start with part A and work up to D. Part D is optional if you run out of time.
@@ -19,7 +21,7 @@ fn main() {
 
     // Part 2, enable the following lines and fill in the function
     // use part_2_sumvec::sumvec;
-    // let sum = crate::sumvec(...);
+    // let sum = sumvec(...);
     // println!("Sum of the vector is {}", sum);
 
     // Part 3, enable the following lines and fill in the function
