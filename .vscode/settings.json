@@ -2,8 +2,8 @@
     "rust-analyzer.linkedProjects": [
         "./exercise_1_variables/Cargo.toml",
         "./exercise_2_primitive_types/Cargo.toml",
-        "./exercise_3_functions/Cargo.toml",
-        "./exercise_4_strings/Cargo.toml",
+        "./exercise_3_strings/Cargo.toml",
+        "./exercise_4_functions/Cargo.toml",
         "./exercise_5_can_it_go_smaller/Cargo.toml",
         "./exercise_6_library/Cargo.toml",
     ]
